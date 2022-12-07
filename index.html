@@ -36,11 +36,24 @@
       </div>
 
       <div class="tile is-8 is-vertical is-parent "> 
-        <div class="tile is-child box">
+        <div  class="tile is-child box">
           <p class="title">todays forcast</p>
+            <div id="todaysForecast" class="box"></div>
         </div>
-        <div id="todaysForecast" class="tile is-child box">
+        <div class="tile is-child box">
           <p class="title">five day forcast</p>
+            <div class="columns">
+                <div id="dayOne" class="column box">
+                </div>
+                <div id="dayTwo" class="column box">
+                </div>
+                <div id="dayThree" class="column box">
+                </div>
+                <div id="dayFour" class="column box">
+                </div>
+                <div id="dayFive" class="column box">
+                </div>
+              </div>  
         </div>
       </div>
       
@@ -56,7 +69,9 @@
     </p>
   </div>
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="assets/index.js"></script>
   </body>
